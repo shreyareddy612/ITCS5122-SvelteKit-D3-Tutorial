@@ -52,14 +52,20 @@
  
  <style>
    .dashboard-title {
-     font-size: 1.8rem;
-     font-weight: bold;
-     text-align: center;
-     width: 100%;
-     margin-top: 1rem;
-     margin-bottom: 1rem;
-     color: #2a2a2a;
-   }
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+    color: #2a2a2a;
+  }
+
+  .data-source {
+    font-size: 0.85rem;
+    text-align: center;
+    color: #666;
+    margin-bottom: 1rem;
+  }
  
    .card {
      border: 1.5px solid #e5e7eb;
@@ -79,9 +85,13 @@
  
  <div class="w-full">
    <h1 class="dashboard-title">Vancouver Trails Analysis: Distance, Duration & Difficulty</h1>
+   <p class="data-source">Data Source: <a href="https://vancouvertrails.com/trails/" target="_blank">vancouvertrails.com</a></p>
+  
  
    <div class="flex h-screen w-full p-6 font-display rounded-xl">
+
      <div class="bg-white grid grid-cols-6 mx-auto px-4 py-8 gap-4 w-full">
+       
  
        <div class="col-span-4 row-span-3 card">
          {#if filteredData.length > 0 }
@@ -106,9 +116,7 @@
     {/if}
   </div>
  
-       <div class="col-span-6 source">
-         Source: Data from <a href="https://vancouvertrails.com/trails/">vancouvertrails.com</a>
-       </div>
+     
      </div>
    </div>
  
