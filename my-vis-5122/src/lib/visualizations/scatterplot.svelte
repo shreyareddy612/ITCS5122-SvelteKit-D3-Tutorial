@@ -2,9 +2,9 @@
 
     /**
         * Assignment name: Inclass Svelte + D3
-        * First name: 
-        * Last name:
-        * Student ID:
+        * First name: Shreya
+        * Last name: Juka Reddy
+        * Student ID: 801391084
     */
 
     import * as d3 from 'd3';
@@ -87,8 +87,9 @@ function handleHover(_event, _trail, _region, _distance, _time, _difficulty, _se
   
     d3.select('#tooltip')
       .style('display', 'block')
-      .style('left', (_event.pageX + tooltipPadding) + 'px')
-      .style('top', (_event.pageY + tooltipPadding) + 'px');
+      .style('left', (_event.pageX + 10) + 'px')
+.style('top', (_event.pageY - 40) + 'px');
+
   }
 
 

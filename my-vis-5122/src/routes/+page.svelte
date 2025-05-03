@@ -1,5 +1,11 @@
 <script>
 
+   /**
+        * Assignment name: Inclass Svelte + D3
+        * First name: Shreya
+        * Last name: Juka Reddy
+        * Student ID: 801391084
+    */
 import * as d3 from 'd3';
     // declare weekdays array
     let weekdays = [

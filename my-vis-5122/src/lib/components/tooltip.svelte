@@ -1,10 +1,10 @@
 <script>
 
-    /**
+  /**
         * Assignment name: Inclass Svelte + D3
-        * First name: 
-        * Last name:
-        * Student ID:
+        * First name: Shreya
+        * Last name: Juka Reddy
+        * Student ID: 801391084
     */
 
     import { tooltip } from "$lib/state/state.svelte";
