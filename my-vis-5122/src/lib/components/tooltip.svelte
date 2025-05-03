@@ -12,8 +12,16 @@
 </script>
 
 <div id="tooltip">
-
+    <div class="tooltip-title">{tooltip.title}</div>
+    <div><i>{tooltip.region}</i></div>
+    <ul>
+        <li>{tooltip.distance} Km, ~ {tooltip.time} hours</li>
+        <li>{tooltip.difficulty}</li>
+        <li>{tooltip.season}</li>
+    </ul>
 </div>
+
+
 
 <style>
     #tooltip {
